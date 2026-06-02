@@ -1,4 +1,5 @@
 # Velora Fashion Website 
+here's the link of site- https://valorafashionnnn.netlify.app/contact
 
 ## Project Overview
 
