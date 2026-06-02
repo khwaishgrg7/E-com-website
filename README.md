@@ -1,4 +1,4 @@
-# Velora Fashion Website – README Documentation
+# Velora Fashion Website 
 
 ## Project Overview
 
