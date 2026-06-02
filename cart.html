@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Velora Cart</title>
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CART CSS -->
+
+    <link rel="stylesheet" href="cart.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="logo">
+                Velo<span>ra</span>
+            </a>
+
+            <!-- NAV LINKS -->
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="shop.html">
+                        Shop
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cart.html" class="active">
+                        Cart
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- ICON -->
+
+            <div class="nav-icons">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- CART SECTION -->
+
+    <section class="cart-section">
+
+        <h1>Your Shopping Cart</h1>
+
+        <div class="cart-container">
+
+            <!-- PRODUCT 1 -->
+
+            <div class="cart-card">
+
+                <img src="card-image5.jpg" alt="">
+
+                <div class="cart-info">
+
+                    <h2>Olive Casual Shirt</h2>
+
+                    <p class="price">$90</p>
+
+                    <!-- QUANTITY -->
+
+                    <div class="quantity-box">
+
+                        <button class="minus">
+                            -
+                        </button>
+
+                        <span class="quantity">
+                            1
+                        </span>
+
+                        <button class="plus">
+                            +
+                        </button>
+
+                    </div>
+
+                    <button class="remove-btn">
+                        Remove
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT 2 -->
+
+            <div class="cart-card">
+
+                <img src="card-image6.jpg" alt="">
+
+                <div class="cart-info">
+
+                    <h2>Leather Backpack</h2>
+
+                    <p class="price">$120</p>
+
+                    <div class="quantity-box">
+
+                        <button class="minus">
+                            -
+                        </button>
+
+                        <span class="quantity">
+                            1
+                        </span>
+
+                        <button class="plus">
+                            +
+                        </button>
+
+                    </div>
+
+                    <button class="remove-btn">
+                        Remove
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- BILL SECTION -->
+
+        <div class="bill-box">
+
+            <h2>Cart Summary</h2>
+
+            <div class="bill-row">
+
+                <span>Total Products</span>
+
+                <span id="total-products">
+                    2
+                </span>
+
+            </div>
+
+            <div class="bill-row">
+
+                <span>Subtotal</span>
+
+                <span id="subtotal">
+                    $210
+                </span>
+
+            </div>
+
+            <div class="bill-row">
+
+                <span>Discount</span>
+
+                <span id="discount">
+                    -$20
+                </span>
+
+            </div>
+
+            <div class="bill-row total">
+
+                <span>Total Bill</span>
+
+                <span id="total-bill">
+                    $190
+                </span>
+
+            </div>
+
+            <button class="checkout-btn">
+
+                Proceed To Checkout
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- CART JS -->
+
+    <script src="cart.js"></script>
+
+</body>
+
+</html>

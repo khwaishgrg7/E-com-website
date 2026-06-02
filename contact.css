@@ -1,0 +1,190 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #f5f5f5;
+}
+
+/* NAVBAR */
+
+.navbar{
+    width: 100%;
+    background: #111;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.logo span{
+    color: #ffd000;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active{
+    color: #ffd000;
+}
+
+/* CONTACT SECTION */
+
+.contact-section{
+    width: 100%;
+    min-height: 85vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px 20px;
+}
+
+.contact-box{
+    width: 100%;
+    max-width: 700px;
+
+    background: white;
+
+    padding: 50px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.contact-box h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.contact-text{
+    color: gray;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+
+/* CONTACT DETAILS */
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    font-size: 18px;
+}
+
+.detail i{
+    color: crimson;
+    font-size: 22px;
+}
+
+/* SOCIAL ICONS */
+
+.social-icons{
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social-icons a{
+    width: 50px;
+    height: 50px;
+
+    background: #111;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    font-size: 22px;
+
+    transition: 0.3s;
+}
+
+.social-icons a:hover{
+    background: crimson;
+    transform: translateY(-5px);
+}
+
+/* FOOTER */
+
+footer{
+    background: #111;
+    color: white;
+
+    text-align: center;
+
+    padding: 30px 20px;
+}
+
+footer h2{
+    margin-bottom: 10px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links{
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-box{
+        padding: 35px 20px;
+    }
+
+    .contact-box h1{
+        font-size: 35px;
+    }
+
+}
